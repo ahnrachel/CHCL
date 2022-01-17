@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | Cedar Hills Coin Laundry</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  </head>
+  <body>
+    <nav class="mainmenu">
+      <div class="mainmenu-container">
+        <div class="mainmenu-brand">
+          <a href="main.html">
+            <img src="image/logoLogo.svg" alt="logo" />
+          </a>
+        </div>
+        <ul class="mainmenu-left">
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="service.html" id="onMenu">Services</a>
+          </li>
+          <li>
+            <a href="faq.html">Faq</a>
+          </li>
+          <li>
+            <a href="contactus.html">Contact</a>
+          </li>
+        </ul>
+        <!-- <ul class="mainmenu-right">
+          <li>
+            <button class="btn btn-darkblue btn-quote" id="quoteButton">
+              Get Quote
+            </button>
+          </li>
+          <li>
+            <button class="btn btn-white btn-chat">Chat Now</button>
+          </li>
+        </ul> -->
+
+        <!-- Hamburger Menu -->
+        <button class="hamburger" id="menu-btn" type="button">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden" id="menu">
+      <ul>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="service.html">Services</a>
+        </li>
+        <li>
+          <a href="faq.html">Faq</a>
+        </li>
+        <li>
+          <a href="contactus.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <section class="box service-box-title bg-primary">
+      <div class="box-title-heading text-xl">services</div>
+      <div class="service-box-content">
+        <div class="tabs">
+          <div class="tab-container">
+            <div class="tab-item tab-highlight" id="tab-1">
+              <p class="hide-sm text-sm-bold">Self <span id="optional">-Service</span></p>
+            </div>
+            <div class="tab-item" id="tab-2">
+              <p class="hide-sm text-sm-bold">Transfer</p>
+            </div>
+            <div class="tab-item" id="tab-3">
+              <p class="hide-sm text-sm-bold">Drop-Off</p>
+            </div>
+            <div class="tab-item" id="tab-4">
+              <p class="hide-sm text-sm-bold">Business</p>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content">
+          <div class="container">
+            <div class="tab-content-item show" id="tab-1-content">
+              <div class="tab-1-content-inner service-box-inner">
+                <img src="image/self-serve.png" alt="" class="service-img img-self-serve">
+                <h2 class="service-self-title text-lg">Self-Service</h2>
+                <div class="service-box-paragraph text-sm-regular service-self-text ">
+                
+                  
+                    <h2><span class="service-tab-subtitle" id="description"> Description </span></h2>
+                    
+                  <p class="service-description">We are equipped with user-friendly coin-operated washers and
+                  dryers.
+                </p>
+               
+             
+                    <h2><span class="service-tab-subtitle" id="notes">Additional Note</span></h2>
+                   
+                   <p class="service-additionNote">We do have change for you. <br />
+                    You can bring your detergents, or purchase laundry supplies at the store. <br>We have pods, fabric softener, bleach, and fabric sheets.
+                </p>
+                </div>
+                </div>
+              </div>
+            
+            <div class="tab-content-item" id="tab-2-content">
+              <div class="tab-2-content-inner service-box-inner">
+                <img src="image/transfer.png" alt="" class="service-img img-transfer">
+                <h2 class="service-transfer-title text-lg">Transfer Service</h2>
+               
+                <div class="service-box-paragraph text-sm-regular service-transfer-text ">
+                
+                 
+                  <h2><span class="service-tab-subtitle" id="description" >
+                    Description
+                  </span></h2>
+                  
+                  <p class="service-description">For a small charge, we will transfer your laundry from
+                  washer(s) to dryer(s) and dryer(s) to your bag(s) at the
+                  setting you request.
+                 </p>
+                
+                  
+                   <h2><span class="service-tab-subtitle" id ="forWhom"> For Whom </span></h2>
+                    <p class="service-whom">
+                    Ideal for a busy schedule - you don’t wait for your laundry to finish.</p>
+                    
+                  
+                  </p>
+                 
+                   
+                    <h2><span class="service-tab-subtitle" id="notes">Additional Note</span></h2>
+               
+                   <p class="service-additionNote">  Folding is not included.
+                  </p>
+                  
+                   
+                 
+                </p>
+              </div>
+              </div>
+            </div>
+
+            <div class="tab-content-item" id="tab-3-content">
+              <div class="tab-3-content-inner service-box-inner">
+                <img src="image/dropoff.png" alt="" class="service-img img-dropoff">
+                  <h2 class="service-dropoff-title text-lg">Drop-Off</h2>
+                  <div class="service-box-paragraph text-sm-regular service-dropoff-text ">
+                   
+                     
+                      <h2><span class="service-tab-subtitle" id="description">
+                        Description
+                      </span></h2>
+                      
+                     <p class="service-description">Drop off your clothes, and we will do your laundry.
+                    <br>
+                      We will weigh your laundry and let you know the price and
+                      time for pickup.
+                   </p>
+                 
+                   
+                    <h2><span class="service-tab-subtitle" id="service" >
+                     Services
+                    </span></h2>
+                    
+                       <p class="service-service">  Wash and Dry <br> Dry and Fold <br> Wash, Dry, and Fold </p>
+                     
+                     
+                        
+                        <h2><span class="service-tab-subtitle" id="included" >
+                          What's included 
+                        </span></h2>
+                       
+                    <p class="service-included"> Soap, softener, and bags are all included.
+                  </p>
+                </div>
+              </div>
+        </div>
+
+            <div class="tab-content-item" id="tab-4-content">
+              <div class="tab-4-content-inner service-box-inner">
+                <img src="image/business.png" alt="" class="service-img img-business">
+                <h2 class="service-business-title text-lg">Business</h2>
+                <div class="service-box-paragraph text-sm-regular service-business-text ">
+                 
+                    
+                    <h2><span class="service-tab-subtitle" id="description" >
+                      Description
+                    </span></h2>
+                   
+                   <p class="service-description">Let us take care of your laundry needs. </p>
+                  
+                  <p class="service-description" id="service-business-parag">
+                    Industries we service (are not limited to): </p>
+                 <p>
+                    Restaurants/Bars | Medical/Dental | Hotels | Gyms | <br>
+                    DayCare/Schools | Salons/Spas | Shelters
+                    
+                    </p>
+                    <h2><span class="service-tab-subtitle" id="notes">Additional Note</span></h2>
+                      
+                    <p class="service-additionNote">It is always best to bring in your laundry for a precise estimate.</p>
+                    
+                  
+                </p>
+                <div class="service-box-button">
+                  <h4 class="text-xsm">Request a Drop-Off Price Estimation </h4>
+                  <button class="btn btn-darkblue btn-quote " id="service-business-button">Get Quote</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <div class="bg-modal">
+      <div class="modal-content">
+        <div class="modal-close"><i class="fas fa-times fa-lg"></i></div>
+        <div class="modal-header">
+          <h3 class="modal-subtitle text-xsm text-bold">
+            Get a Drop-Off Price Estimation
+          </h3>
+          <h2 class="modal-title text-lg">Request a Quote</h2>
+
+          <!-- <p class="modal-subsubtitle">
+            For a Precise Quotation, it is Recommended to Bring In Your Laundry
+          </p> -->
+        </div>
+
+        <div class="modal-form">
+          <form class="modal-form-grid">
+            <div class="form-name text-xsm text-bold">
+              <label for="name">FULL NAME</label> <br />
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-email text-xsm text-bold">
+              <label for="email">E-Mail</label> <br />
+              <input type="text" id="email" name="email" required />
+            </div>
+            <div class="form-service">
+              <p class="form-service-title text-xsm text-bold">
+                Select a Service
+              </p>
+              <div class="form-service-grid">
+                <div class="WashDry">
+                  <label id="radioButtons">
+                    <input
+                      type="radio"
+                      name="servieType"
+                      value="WashandDry"
+                      checked
+                    />
+
+                    <img src="image/washdry.png" alt="" class="washdry-img" />
+                    <p>WASH & DRY</p></label
+                  >
+                </div>
+                <div class="dryFold">
+                  <label id="radioButtons">
+                    <input type="radio" name="servieType" value="dryandFold" />
+
+                    <img src="image/dryfold.png" alt="" class="dryfold-img" />
+                    <p>DRY & FOLD</p></label
+                  >
+                </div>
+                <div class="washDryFold">
+                  <label id="radioButtons">
+                    <input type="radio" name="servieType" value="WashDryFold" />
+
+                    <img
+                      src="image/washdryfold.png"
+                      alt=""
+                      class="washdryfold-img"
+                    />
+                    <p>WASH DRY & FOLD</p></label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="form-type text-xsm text-bold">
+              <label for="type">Type of Laundry</label> <br />
+              <input
+                type="text"
+                id="type"
+                name="laundryType"
+                required
+                placeholder="Please Describe Your Laundry (eg. medical scrubs)"
+              />
+            </div>
+            <div class="form-button">
+              <button class="btn btn-darkblue">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="modal.js"></script>
+    <script src="nav.js"></script>
+  </body>
+</html>
