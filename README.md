@@ -2,11 +2,15 @@
 
 Cedar Hills Coin Laundry
 
-### MARKETING WEBSITE FOR A COIN LAUNDRY
+### WEBSITE
+
+- [link]
+
+### DESCRIPTIONS
+
 
 - simple yet effective and responsive marketing website for a business
 
-<br />
 
 ### PROGRAMMING LANGUAGES USED
 
@@ -19,3 +23,6 @@ Cedar Hills Coin Laundry
 
 MIT License
 Copyright (c) 2022 [Rachel Ahn]
+
+
+[link]: http://cedarhillslaundry.com
