@@ -105,6 +105,7 @@ ul {
   text-transform: uppercase;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 
 .mainmenu-brand img {
@@ -150,6 +151,7 @@ ul {
 
 .mainmenu-left {
   flex: 1;
+
   /* margin-left: 24px; */
 }
 
@@ -183,6 +185,7 @@ ul {
 }
 .btn-white {
   background: #fff;
+  color: #000;
 }
 .btn-white:hover {
   background-color: rgb(214, 212, 212);
@@ -455,6 +458,7 @@ ul {
   position: relative;
   padding-left: 80px;
   padding-right: 80px;
+  z-index: 1;
 }
 
 /* .accordion_questions {
@@ -475,6 +479,7 @@ ul {
 .question {
   display: flex;
   justify-content: space-between;
+  gap: 1rem;
   cursor: pointer;
   transition: 0.3s;
   padding: 28px 60px 28px 60px;
@@ -1162,7 +1167,7 @@ form input {
   height: 3px;
   background: #000;
   transform: roate(0);
-  transition: all 0.5s;
+  transition: all 0.25s;
 }
 .hamburger-middle {
   transform: translateY(9px);
@@ -1190,6 +1195,7 @@ form input {
   height: 100%;
   padding: 30px;
   transition: all 0.3s;
+  z-index: 3;
 }
 
 .mobile-menu ul {
@@ -1450,8 +1456,8 @@ form input {
   }
 
   .about-box-two-text-inner {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .gridTwoXFive {
@@ -1469,7 +1475,7 @@ form input {
   }
 
   .question {
-    padding: 24px 40px 24px 40px;
+    padding: 24px 24px 24px 24px;
   }
   .mainmenu-container {
     justify-content: space-between;
@@ -1482,6 +1488,10 @@ form input {
   }
   .hamburger {
     display: block;
+  }
+
+  .question_answer_accordion .question h3 {
+    font-size: 16px;
   }
 }
 
@@ -1579,6 +1589,7 @@ form input {
 
   .lastLoading {
     font-size: 16px;
+    margin: 40px 40px 60px 40px;
   }
 
   .about-box-two-text-inner h3 {
@@ -1607,6 +1618,17 @@ form input {
   .chatTitle,
   .quoteTitle {
     font-size: 20px;
+  }
+  .main-box-six .box-title {
+    font-size: 36px;
+  }
+
+  .contactus-title-subtitle {
+    font-size: 18px;
+  }
+
+  .faq-page-subtitle {
+    font-size: 18px;
   }
 }
 @media (max-width: 450px) {
